@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaptopOwner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <button id="themeToggle">
+    <img src="assets/moon@4x.png" alt="" width="50">
+  </button>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="logo">LapOwner</div>
+        <div class="burger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#header" onclick="(closeMenu)">Home</a></li>
+            <li><a href="#second-hero" onclick="(closeMenu)">Products</a></li>
+            <li><a href="#third-hero" onclick="(closeMenu)">BestSeller</a></li>
+            <li><a href="#fourth-hero" onclick="(closeMenu)">Categories</a></li>
+            <li><a href="#fiveth-hero" onclick="(closeMenu)">Contact</a></li>
+            <li><a href="#final-hero" onclick="(closeMenu)" id="signIn">Sign In</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <div class="container" id="hero">
+        <div class="left-grid">
+            <h2>Des laptops professionnels</h2> <br>
+            <p>
+                Que vous soyez un gamer passionné, un professionnel en quête de productivité, 
+                ou un étudiant cherchant un ultrabook léger et performant, nous avons le modèle qu'il vous faut. <br>
+                Nos catégories couvrent les gaming, les machines, et 
+                les ultrabooks pour une mobilité optimale.
+            </p>
+            <a href="#" class="button-hero">Discover Now </a>
+            <div class="stat">
+              <p><span>285k+</span> <br>Commandes livrées</p>
+              <p><span>450k+</span> <br>Clients satisfaits</p>
+              <p><span>597k+</span> <br>Partenaires</p>
+            </div>
+            
+        </div>
+        <div class="right-grid">
+          <div class="card">
+            <img src="assets/m.png" alt="Image">
+          </div>
+        </div>
+    </div>
+
+  <!-- 2NDHERO   -->
+  <section class="product-range" id="second-hero">
+    <div class="range-header">
+        <h2>Une <span>Gamme</span> complète</h2>
+        <p>
+            Chaque jour, des centaines d'utilisateurs nous font confiance pour trouver 
+            les meilleures offres sur les laptops les plus populaires du moment. 
+            Nous sélectionnons les modèles les plus appréciés en fonction de leur 
+            performance. Faites défiler et choisissez le laptop idéal pour booster 
+            votre productivité et votre expérience de divertissement.
+        </p>
+    </div>
+    
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="assets/b.jpg" alt="HP Elite Book">
+            <h3>HP Elite Book</h3>
+            <p class="price">$999.50</p>
+        </div>
+        
+        <div class="product-card">
+            <img src="assets/b.jpg" alt="Think Book">
+            <h3>Think Book</h3>
+            <p class="price">$1950.50</p>
+        </div>
+        
+        <div class="product-card">
+            <img src="assets/b.jpg" alt="Mac Book">
+            <h3>Mac Book</h3>
+            <p class="price">$8439.50</p>
+        </div>
+    </div>
+</section>
+
+
+  <!-- THIRDHERO   -->
+  <div class="grid-container" id="third-hero">
+    <div class="text-content">
+      <h2>Un <span>investissement</span> rentable</h2>
+      <p>Acheter un laptop est un investissement, et nous nous engageons 
+        à vous offrir un service client de qualité pour répondre à toutes vos questions 
+        et vous accompagner après votre achat. <br> <br>
+        Notre équipe d’experts est disponible pour vous aider à choisir le modèle qui correspond à vos besoins et à votre budget.
+      </p>
+    </div>
+    <img src="assets/pcs@4x.png" alt="Laptops en promotion">
+</div>
+
+  <!-- services  -->
+  <div class="services" id="services">
+    <div class="service-card">
+      <div class="icon">
+        <img src="assets/sec@4x.png" alt="">
+      </div>
+      <p><span>Paiement Sécurisé</span></p>
+      <p>Achetez en toute confiance, des méthodes de paiement sécurisées 
+        et une livraison express. 
+        </p>
+    </div>
+    <div class="service-card">
+      <div class="icon">
+        <img src="assets/argent@4x.png" alt="">
+      </div>
+      <p><span>Méthodes de paiement</span></p>
+      <p>Nous acceptons les paiements par carte bancaire, 
+        PayPal, Mobile Money et virement bancaire.
+        </p>
+    </div>
+    <div class="service-card">
+      <div class="icon">
+        <img src="assets/hour@4x.png" alt="">
+      </div>
+      <p><span>Une expédition rapide</span></p>
+      <p>Nos partenaires logistiques s'assurent que vous receviez 
+        votre laptop dans les plus brefs délais.
+        </p>
+    </div>
+  </div>
+
+  <!-- FOURTHHERO   -->
+  <div class="container" id="fourth-hero">
+    <div class="right-grid">
+      <div class="card">
+        <img src="assets/4x.png" alt="Image">
+      </div>
+    </div>
+    <div class="left-grid">
+      <h2>Des <span>Laptops</span> classés par usage et performance</h2> <br>
+      <p>
+        Dans cette section, nous vous proposons une sélection variée de laptops adaptés à tous les besoins
+        Découvrez notre sélection et trouvez le laptop qui correspond parfaitement à votre usage quotidien.
+      </p>
+      <a href="#" class="button-hero">Explore All</a>  
+    </div>
+  </div>
+
+  <!-- avis  -->
+  <section class="reviews">
+    <h2>Expériences <span>Clients</span> <br> Exceptionnelles</h2>
+    <div class="reviews-container">
+        <div class="review">
+            <div class="review-content">
+                <p class="quote">"Super expérience ! Livraison rapide et produit conforme."</p>
+                <div class="stars">★★★★★</div>
+                <h4>- Alice Dupont</h4>
+            </div>
+        </div>
+        <div class="review">
+            <div class="review-content">
+                <p class="quote">"Excellent service client, ils m'ont bien conseillé pour choisir mon laptop."</p>
+                <div class="stars">★★★★☆</div>
+                <h4>- Marc Lefevre</h4>
+            </div>
+        </div>
+        <div class="review">
+            <div class="review-content">
+                <p class="quote">"Produit de qualité et bon rapport qualité/prix. Je recommande !"</p>
+                <div class="stars">★★★★★</div>
+                <h4>- Sophie Martin</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- connect sign in  -->
+  <!-- Formulaire de contact (visible en permanence) -->
+<div class="fiveth-hero" id="fiveth-hero">
+  <section class="contact-section">
+    <h2><span>Contactez</span> nous</h2>
+    <form>
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message" rows="4" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+  </section>
+</div>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay"></div>
+
+<!-- Formulaire de connexion (caché par défaut) -->
+<div class="login-form" id="loginForm">
+  <div class="form-content">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <h2>Connexion</h2>
+      <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+          
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" required>
+          
+          <button type="submit">Se connecter</button>
+      </form>
+  </div>
+</div>
+
+<!-- footer 2 -->
+<div class="footer-container">
+  <div class="footer-text">
+      <p>Ne manquez pas nos ventes flash, bundles exclusifs avec accessoires gratuits et remises sur les derniers modèles.</p>
+  </div>
+  
+  <div class="footer-content">
+      <ul class="footer-links">
+          <li><a href="#header">Accueil</a></li>
+          <li><a href="#second-hero">Produits</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#fiveth-hero">Contact</a></li>
+      </ul>
+
+      <ul class="footer-links">
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Conditions</a></li>
+      </ul>
+
+      <ul class="footer-links">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+      </ul>
+
+
+  </div>
+
+  <div class="footer-bottom">
+    <span> &copy; Wl Si All rights reserved</span>
+  </div>
+</div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
